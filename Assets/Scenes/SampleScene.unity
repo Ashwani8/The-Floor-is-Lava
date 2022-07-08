@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 513120980}
   - component: {fileID: 513120979}
   - component: {fileID: 513120978}
+  - component: {fileID: 513120983}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -235,6 +236,19 @@ Transform:
   m_Father: {fileID: 1573659901}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513120983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513120977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677c2ec19370b364e8ff1b39ce1eeabb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleChange: {x: 0.1, y: 0.1, z: 0.1}
 --- !u!1 &554844078
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +721,7 @@ GameObject:
   - component: {fileID: 1573659901}
   - component: {fileID: 1573659900}
   m_Layer: 0
-  m_Name: ScriptObject
+  m_Name: PlankHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
