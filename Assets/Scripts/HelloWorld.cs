@@ -16,11 +16,15 @@ public class HelloWorld : MonoBehaviour
     void Update()
     {
         //Debug.Log(myMessage);
-        if (Input.GetKeyDown(KeyCode.Space))
+        // geting input from the key board
+        //  if (Input.GetKeyDown(KeyCode.Space))
+        // the same can be achieved using defined function in unity like jump
+       if(Input.GetButtonDown("Jump"))
         {
             print("spacebar was pressed");
             transform.position += new Vector3(0, 1, 0);
         }
-        
+         
+
     }
 }
